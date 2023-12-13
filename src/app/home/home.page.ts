@@ -99,7 +99,7 @@ map: any;
           title: 'Estoy aqui!',
           text: message,
           url: `https://maps.google.com/?q=${latitude},${longitude}`,
-          dialogTitle: 'Share your location',
+          dialogTitle: 'compartir ubicacion',
         });
       } else {
         console.error('Ubicacion no valida');
